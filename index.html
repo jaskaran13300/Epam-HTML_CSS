@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Jaskaran Epam Task</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .complete-body-alignment {
+            justify-content: center;
+            display: grid;
+        }
+        .default-width{
+            width: 500px;
+            margin: 20px;
+        }
+        .facebook-button {
+            background: #3b5998;
+            width: 100%;
+
+        }
+        .google-button {
+            background: #db4a39;
+            width: 100%;
+
+        }
+        .button{
+            height: 50px;
+        }
+        .epam-button {
+            background: #a0c334;
+            font-weight: bold;
+            color:white;
+            width: 100%;
+        }
+        @media only screen and (max-width: 300px){
+            .default-width{
+                margin: 0px;
+            }
+        }
+        @media only screen and (max-width: 636px){
+            .default-width{
+                margin: 50px;
+            }
+        }
+    </style>    
+    
+</head>
+<body>
+	<div>
+		<div class="complete-body-alignment">
+			<div class="default-width">
+				<div class="container-fluid bg-info p-3">
+					<div class=" header d-flex justify-content-between" style="width: 100%;">
+							<i class="fa fa-graduation-cap" style="font-size:50px;color: white"></i>
+                            <font style="font-size: 30px;color:white;font-weight: 600">Sign In</font>
+							<i class="fa fa-close" style="font-size:40px;color:white"></i>
+					</div>
+				</div>
+	
+				<div class="container">
+                    <div >
+					<div class="input-group mt-5">
+						<input type="email" class="form-control" placeholder="mail@example.com" />
+						<div class="input-group-append">
+							<div class="input-group-text "><i class="fa fa-envelope" style="font-size:24px"></i></div>
+						</div>
+					</div>
+	
+					<div class="input-group mt-2">
+						<input type="password" class="form-control" placeholder="Enter Password" />
+						<div class="input-group-append">
+							<div class="input-group-text "><i class="fa fa-key" style="font-size:20px"></i></div>
+						</div>
+					</div>
+                    
+	
+					<button type="button" class="btn btn-info mt-5" style="width: 100%;color:white;font-weight: bold">SIGN IN</button>	
+	               
+					<div class="d-flex justify-content-between mt-4 other-options">
+						 <div style="cursor: pointer">Forgot your password?</div> 
+						<div style="cursor: pointer">Register!</div>
+					</div>
+                    </div>
+					<div class="row mt-5">
+						<div class="col-sm-6"><hr></div>
+                        OR
+						<div class="col-sm-5"><hr></div>	
+					</div>
+	
+					<button type="button" class="btn facebook-button mt-5">
+						<img src="https://image.flaticon.com/icons/svg/2111/2111398.svg"
+						 class="img-fluid button" />
+					</button>
+	
+					<button type="button" class="btn google-button mt-2">
+						<img src="https://image.flaticon.com/icons/svg/145/145804.svg"
+						 class="img-fluid button" />
+					</button>
+	
+					<button type="button" class="btn button epam-button mt-5">
+						LOGIN
+					</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
